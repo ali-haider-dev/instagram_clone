@@ -1,14 +1,35 @@
-*{
+* {
   margin: 0;
 }
 
-.app_header{
+.app_header {
+  position: sticky;
+  top: 0;
   object-fit: contain;
   background-color: white;
   padding: 20px;
   border-bottom: 1px solid lightgray;
+  display: flex;
 }
-.app{
-background-color: #fafafa;
-
+.app {
+  background-color: #fafafa;
+}
+.app_signUp {
+  display: flex;
+  flex-direction: column !important;
+  text-align: center !important;
+}
+.app_sinup {
+  margin-left: auto;
+}
+.app_headerImage {
+  object-fit: contain;
+}
+.app_posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_postRight {
+  margin-right: 20px;
 }
